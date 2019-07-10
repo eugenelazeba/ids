@@ -1,0 +1,267 @@
+{
+  "booking": {
+    "bookingIdentifier": {
+      "integrationProcessingInitiated": "2018-11-18T15:53:08.36",
+      "sourceMarket": "GB",
+      "sourceApplication": "TCV",
+      "bookingSystem": "AtCore",
+      "bookingNumber": "77336585",
+      "bookingVersionOnTour": "2",
+      "bookingVersionTourOperator": "2",
+      "bookingUpdateDateOnTour": "2017-03-31",
+      "bookingUpdateDateTourOperator": "2016-07-27",
+      "sourceSystemID": "OnTour"
+    },
+    "bookingGeneral": {
+      "bookingStatus": "Booked",
+      "bookingDate": "2016-07-27",
+      "departureDate": "2016-12-18",
+      "duration": 0,
+      "destination": "PKG",
+      "toCode": "TCUK",
+      "brand": "BUC",
+      "brochureCode": "BUC",
+      "isLateBooking": false
+    },
+    "travelParticipant": [
+      {
+        "firstName": "MARCEL",
+        "lastName": "HIOB",
+        "age": "28",
+        "gender": "",
+        "relation": "Infant",
+        "travelParticipantIDOnTour": "4461293",
+        "language": "DE",
+        "birthDate": "2017-01-02",
+        "remark": [
+          {
+            "type": "TourOperator"
+          }
+        ]
+      },
+      {
+        "firstName": "SABRINA",
+        "lastName": "SCHAPPEL",
+        "age": "24",
+        "gender": "Male",
+        "relation": "Participant",
+        "travelParticipantIDOnTour": "4461294",
+        "language": "DE",
+        "birthDate": "",
+        "remark": [
+          {
+            "type": "Agency"
+          }
+        ]
+      },
+      {
+        "firstName": "DARIO",
+        "lastName": "SCHAPPEL",
+        "age": "3",
+        "gender": "",
+        "relation": "Child",
+        "travelParticipantIDOnTour": "4461295",
+        "language": "DE",
+        "birthDate": ""
+      },
+      {
+        "firstName": "MADLIN",
+        "lastName": "SCHAPPEL",
+        "age": "5",
+        "gender": "",
+        "relation": "Infant",
+        "travelParticipantIDOnTour": "4461296",
+        "language": "DE",
+        "birthDate": ""
+      }
+    ],
+    "services": {
+      "accommodation": [
+        {
+          "accommodationCode": "93985",
+          "accommodationDescription": "TRENDY VERBENA BEACH",
+          "order": "489933",
+          "startDate": "2016-12-18T12:34:00",
+          "endDate": "2017-01-02T22:22:00",
+          "roomType": "A2D",
+          "boardType": "Lodging Only",
+          "status": "Request",
+          "hasSharedRoom": false,
+          "numberOfParticipants": 0,
+          "numberOfRooms": 1,
+          "withTransfer": false,
+          "isExternalService": true,
+          "externalServiceCode": "HBSI",
+          "notificationRequired": false,
+          "needsTourGuideAssignment": false,
+          "isExternalTransfer": false,
+          "transferServiceLevel": "Differentiated",
+          "travelParticipantAssignment": [
+            {
+              "travelParticipantID": "4461293"
+            },
+            {
+              "travelParticipantID": "4461294"
+            },
+            {
+              "travelParticipantID": "4461295"
+            },
+            {
+              "travelParticipantID": "4461296"
+            }
+          ],
+          "remark": [
+            {
+              "type": "TourOperator",
+              "text": "EKMS Hotel Code: 40165"
+            },
+            {
+              "type": "TourOperator",
+              "text": "EKMS Room Code: A2B"
+            },
+            {
+              "type": "TourOperator",
+              "text": "GIATA Code: 135744"
+            }
+          ],
+          "tourGuideAssignment": [
+            {
+              "tourGuideID": "123",
+              "tourGuideName": "TOURGUIDENAME"
+            },
+            {
+              "tourGuideID": "1234",
+              "tourGuideName": "TOURGUIDENAME"
+            }
+          ]
+        },
+        {
+          "accommodationCode": "LPA005",
+          "accommodationDescription": "TRENDY VERBENA BEACH",
+          "order": "489933",
+          "startDate": "2016-12-18T12:34:00",
+          "endDate": "2017-01-02T22:22:00",
+          "roomType": "A2D",
+          "boardType": "All Inclusive",
+          "status": "Request",
+          "hasSharedRoom": false,
+          "numberOfParticipants": 0,
+          "numberOfRooms": 1,
+          "withTransfer": false,
+          "isExternalService": false,
+          "externalServiceCode": "HBSI",
+          "notificationRequired": false,
+          "needsTourGuideAssignment": false,
+          "isExternalTransfer": false,
+          "transferServiceLevel": "Differentiated",
+          "travelParticipantAssignment": [
+            {
+              "travelParticipantID": "4461293"
+            },
+            {
+              "travelParticipantID": "4461294"
+            },
+            {
+              "travelParticipantID": "4461295"
+            },
+            {
+              "travelParticipantID": "4461296"
+            }
+          ],
+          "remark": [
+            {
+              "type": "TourOperator",
+              "text": "EKMS Hotel Code: 40165"
+            },
+            {
+              "type": "TourOperator",
+              "text": "EKMS Room Code: A2B"
+            },
+            {
+              "type": "TourOperator",
+              "text": "GIATA Code: 135744"
+            }
+          ]
+        }
+      ],
+      "transport": [
+        {
+          "transportCode": "XQ0141",
+          "transportDescription": "XQ0141",
+          "order": "1",
+          "startDate": "2016-12-18T18:40:00",
+          "endDate": "2016-12-18T23:05:00",
+          "transferType": "Transfer between hotels",
+          "departureAirport": "FRA",
+          "arrivalAirport": "AYT",
+          "carrierCode": "XQ",
+          "flightNumber": "0141",
+          "flightIdentifier": "XQ0141FRAAYT",
+          "numberOfParticipants": 4,
+          "travelParticipantAssignment": [
+            {
+              "travelParticipantID": "4461293"
+            },
+            {
+              "travelParticipantID": "4461294"
+            },
+            {
+              "travelParticipantID": "4461295"
+            },
+            {
+              "travelParticipantID": "4461296"
+            }
+          ],
+          "remark": [
+            {
+              "type": "TourOperator",
+              "text": "EKMS Hotel Code: 40165"
+            },
+            {
+              "type": "Agency",
+              "text": "EKMS Room Code: A2B"
+            }
+          ]
+        }
+      ],
+      "extraService": [
+        {
+          "extraServiceCode": "XQ0140",
+          "extraServiceDescription": "XQ0140",
+          "order": "2",
+          "startDate": "2017-01-02T15:55:00",
+          "endDate": "2017-01-02T17:45:00",
+          "travelParticipantAssignment": [
+            {
+              "travelParticipantID": "4461293"
+            },
+            {
+              "travelParticipantID": "4461294"
+            },
+            {
+              "travelParticipantID": "4461295"
+            },
+            {
+              "travelParticipantID": "4461296"
+            }
+          ],
+          "remark": [
+            {
+              "type": "TourOperator",
+              "text": "EKMS Hotel Code: 40165"
+            },
+            {
+              "type": "Agency",
+              "text": "EKMS Room Code: A2B"
+            }
+          ]
+        }
+      ]
+    },
+    "remark": [
+      {
+        "type": ""
+      }
+    ]
+  }
+}
